@@ -18,6 +18,7 @@ function createMarkup(array) {
   </a>
 </li>`
     )
+
     .join('');
 }
 
