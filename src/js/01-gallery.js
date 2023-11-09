@@ -18,11 +18,10 @@ function createMarkup(array) {
   </a>
 </li>`
     )
-
     .join('');
 }
 
-var lightbox = new SimpleLightbox('.gallery__item a', {
+new SimpleLightbox('.gallery__item a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
